@@ -134,8 +134,8 @@ def main():
             fs = os.path.join(dirName, fname)
             fs = os.path.relpath(fs, gen.getSrcDir())
             fd = os.path.join(dDir, fname)
-            template = gen.render.get_template(fs)
             print("\tGenerating %s" % fd)
+            template = gen.render.get_template(fs)
             with codecs.open(fd, 'w', 'utf-8') as f:
                 f.write(template.render(info=gen.args))
 
