@@ -3,7 +3,8 @@
 ##
 # Copyright © 2016 linuor. All Rights Reserved.
 # @file generate.py
-# @brief generate a set of files from jinja2 template
+# @brief generate a set of files from jinja2 template, files to be generated
+# will use the name given by template.
 # @author linuor
 # @version 0.1
 # @date 2016-02-05
