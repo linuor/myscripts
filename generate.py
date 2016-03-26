@@ -43,7 +43,7 @@ class Generate(object):
                 help    = 'Specify the source template used for generation, also the name of the sub-directory under the template directory.',
                 metavar = 'Template',
                 dest    = 'tmpl',
-                default = 'cpp'
+                default = 'cpp/project'
         )
         parser.add_argument(
                 '-a',
