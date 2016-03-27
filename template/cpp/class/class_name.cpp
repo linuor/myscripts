@@ -6,5 +6,7 @@
  * @version {{info.ver}}
  * @date {{info.date}}
  */
+#incldue "{{info.dest | lower}}.h"
+
 namespace {{info.ns}} {
 }
