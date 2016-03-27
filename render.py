@@ -146,7 +146,7 @@ def main():
             fs = os.path.join(dirName, fname)
             fs = os.path.relpath(fs, rootDir)
             (h,t) = os.path.splitext(fname)
-            fd = os.path.join(destDir, render.args.dest + t)
+            fd = os.path.join(destDir, render.args.dest.lower() + t)
             if os.path.exists(fd):
                 t = raw_input("\t%s exists, replace, skip or abort? [r/s/a] " % fd)
                 t = t.lower()
